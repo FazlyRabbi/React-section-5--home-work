@@ -19,6 +19,7 @@ const Header = props => {
 Header.defaultProps = {
   contentText: 'header'
 };
+
 Header.propTypes = {
   contentText: PropTypes.string.isRequired
 };

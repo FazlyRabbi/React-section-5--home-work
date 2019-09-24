@@ -1,19 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './componets/header';
-import Content from "./componets/content";
-import Sidebar from "./componets/sidebar";
-import Footer from "./componets/footer";
+import Counter from './componets/counter';
 
 const App = () => {
+
+
+
   return (
-    <>
-      <Header contentText={"header"}></Header>
-      <Content contentText={"content"}></Content>
-      <Sidebar contentText={"sidebar"}></Sidebar>
-      <Footer contentText={"footer"}></Footer>
-    </>
+    <div>
+      <Counter />
+    </div>
   );
 };
 
-ReactDOM.render(<App></App>,document.querySelector(".container"));
+//rendering in ui
+ReactDOM.render(<App></App>, document.querySelector('.container'));

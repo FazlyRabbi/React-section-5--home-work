@@ -7,12 +7,21 @@
     "build": "parcel ./src/index.html"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
     "parcel-bundler": "^1.12.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
   "dependencies": {
+    "content": "^4.0.6",
+    "footer": "^1.0.0",
+    "header": "^0.1.1",
     "pro": "^0.3.0",
-    "prop": "^0.1.1"
+    "prop": "^0.1.1",
+    "sidebar": "^1.0.2"
   }
 }
